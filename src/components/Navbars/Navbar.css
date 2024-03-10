@@ -1,0 +1,50 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Manrope&display=swap');
+nav{
+    padding-right: 1.5rem;
+    position: relative;
+    top: 0;
+}
+
+.Navlogo{
+    height: 100%;
+    width: 250px;
+    position: relative;
+    z-index: 1000;
+    border: none;
+    box-shadow: none;
+}
+
+.social-links::after{
+    background-color: #ffffff;
+    content:"";
+    height:0.1rem;
+}
+
+.social-links:hover::after{
+    display:block;
+    animation: left-to-right 0.25s cubic-bezier(.694,.048,.335,1) ;    
+}
+
+@keyframes left-to-right{
+    0%{
+
+        width:0;
+    }
+    100%{
+        width:100%;
+    }
+}
+
+.react-icons {
+    vertical-align: middle;
+    align-items: center;
+    margin:auto;
+    height:2rem;
+    width:2rem;
+    padding-bottom: 0.5rem;
+    color:rgb(255, 255, 255);
+  }

@@ -1,0 +1,25 @@
+#events{
+    background: url("../Design/black-gradient.jpg");
+}
+.EventHead{
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    width: 46%;
+    margin-left: 27%;
+    margin-right: 27%;
+}
+
+#card{
+    margin: 0px 10px;
+}
+#card h3{
+    font-family: 'Nunito';
+}
+#card .info{
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 1.1rem ;
+    color: black;
+}
+

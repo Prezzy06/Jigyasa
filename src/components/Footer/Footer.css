@@ -1,0 +1,58 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    background: url(../Design/black-gradient.jpg);
+}
+.up{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+}
+.up img{
+    height: 115px;
+    width: auto;
+}
+.toptext{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: "Nunito";
+    margin-right: 10px;
+}
+
+li{
+    font-family: "Nunito";
+}
+.social-links::after{
+    background-color: #ffffff;
+    content:"";
+    height:0.15rem;
+}
+
+.social-links:hover::after{
+    display:block;
+    animation: left-to-right 0.25s cubic-bezier(.694,.048,.335,1) ;
+    background-color: #ffffff;
+}
+
+
+@keyframes left-to-right{
+    0%{
+
+        width:0;
+    }
+    100%{
+        width:100%;
+    }
+}
+@media screen and (max-width: 360px) {
+    
+}
