@@ -5,6 +5,8 @@ Events Register link needs to be updated
 
 Social media Links redirect needs to be updated
 
+Team photos to be added 
+
 ## How to start Locally
 Firstly clone this repo using command `git clone`
 
