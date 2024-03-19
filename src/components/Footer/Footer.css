@@ -10,27 +10,11 @@ footer{
 .body{
     background: url(../Design/black-gradient.jpg);
 }
-.up{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 0px;
-}
-.up img{
-    height: 115px;
-    width: auto;
-}
-.toptext{
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-family: "Nunito";
-    margin-right: 10px;
-}
 
 li{
-    font-family: "Nunito";
+    font-family: "sans";
 }
+
 .social-links::after{
     background-color: #ffffff;
     content:"";

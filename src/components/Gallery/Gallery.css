@@ -1,0 +1,9 @@
+.GalleryHead{
+    color: rgb(255, 255, 255);
+    font-family: 'ui-sans-serif';
+    border-radius: 10px;
+    text-align: center;
+    width: 46%;
+    margin-left: 27%;
+    margin-right: 27%;
+}

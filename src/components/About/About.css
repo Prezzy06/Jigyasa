@@ -1,5 +1,5 @@
 body {
-    background: rgb(255, 255, 255);
+    background: url(../Design/space.jpeg);
 }
 
 #about {
@@ -14,34 +14,24 @@ body {
 }
 
 .aboutHead {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     text-align: center;
     width: 80%;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: ui-sans-serif;
 }
 
 .aboutPara {
-    color: black;
-    font-family: 'Nunito';
-    font-weight: 600;
-    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.25rem;
     border-radius: 15px;
     text-align: center;
     width: 80%;
     margin-top: 20px;
     margin-bottom: 10px;
-}
-
-.myVideo {
-    position: fixed;
-    z-index: -1;
-    height: 120%;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
 }
 
 @media only screen and (max-width: 360px) {

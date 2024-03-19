@@ -2,17 +2,17 @@ import React from "react";
 import { Data } from './Data';
 import "./Events.css"
 
-
 import { motion} from "framer-motion";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 AOS.init();
+
 const Card = () => {
     
   return (
 
-    <div id="events">
-      <h1 className='EventHead font-Manrope font-extrabold text-6xl mt-200 mb-100 pt-20 my-10'>Events</h1>
+    <div id="events"> 
+      <h1 className='EventHead font-extrabold text-6xl mt-200 mb-100 pt-20 my-10'>Events</h1>
     {Data.map((item, index) => (
     <>
     
@@ -52,7 +52,7 @@ const Card = () => {
                     {item.information}
                   </p>
                   <div className="mt-4 mx-2">
-                    <a href = {item.link} style={{fontFamily: "Nunito"}} class="bg-black text-white py-2 px-4 rounded text-sm">Register</a>
+                    <a href = {item.link} style={{fontFamily: "Nunito"}} class="bg-black text-white py-2.5 px-3 rounded text-sm">Register</a>
                   </div>
                 </div>
               </div>

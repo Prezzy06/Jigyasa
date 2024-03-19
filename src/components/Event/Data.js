@@ -9,15 +9,15 @@ import img7 from "./Images/event.png";
 export const Data = [
   {
     title: "NebulaNet",
-    information: "Machine Learning tools to classify atronomical objects from telescopic data.",
-    link: "https://google.com/",
+    information: "Machine Learning tools to classify astronomical objects from telescopic data.",
+    link: "https://unstop.com/college-fests/jigyasa-23-indian-institute-of-technology-banaras-hindu-university-121575",
     image: img1,
     slide: "fade-up",
   },
   {
     title: "Code Collider",
     information: "Hotwire your brain in this awesome workshop of Competitive Programming and show off your skills in the competition.",
-    link: "https://google.com/",
+    link: "https://unstop.com/college-fests/jigyasa-23-indian-institute-of-technology-banaras-hindu-university-121575",
     image: img2,
     slide: "fade-up",
   },
@@ -30,15 +30,15 @@ export const Data = [
   },
   {
     title: "Quantum leap",
-    information: "Get your ears and brains together for demystifying the world of quantum computingto get flabbergasted in this mind bobbling workshop of Quantum computing.",
-    link: "https://google.com/",
+    information: "Get your ears and brains together for demystifying the world of quantum computing to get flabbergasted in this mind bobbling workshop of Quantum computing.",
+    link: "https://unstop.com/college-fests/jigyasa-23-indian-institute-of-technology-banaras-hindu-university-121575",
     image: img4,
     slide: "fade-up",
   },
   {
     title: "MemiΦ",
     information: "Make memes on your favorite physics topics and submit it online.",
-    link: "https://google.com/",
+    link: "https://unstop.com/college-fests/jigyasa-23-indian-institute-of-technology-banaras-hindu-university-121575",
     image: img5,
     slide: "fade-up",
   },

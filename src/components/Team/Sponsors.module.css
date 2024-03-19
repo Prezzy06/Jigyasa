@@ -1,0 +1,69 @@
+
+.wrapper {
+  background-color: #ffffff;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background: url("../Design/space.jpeg");
+}
+.sidebar {
+  height: 100%;
+  max-width: 30vw;
+  position: fixed;
+  top: 8.4%;
+  width: 300px;
+  border-radius: 0;
+  background-color: rgba(255, 255, 255, 0); 
+  overflow-x: hidden;
+  padding-top: 3px;
+  text-align: left;
+  line-height: 1.5;
+  font-size: 1.05em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: ui-sans-serif;
+}
+
+.sidebar h1 {
+  font-size: 1.2em;
+  font-family: ui-sans-serif;
+}
+.sidebar a {
+  padding: 10px;
+  text-decoration: none;
+  font-family: ui-sans-serif;
+  display: block;
+  margin-left: 50px;
+  list-style: none;
+}
+.main {
+  margin-left: calc(210px + 10vw);
+  font-size: 1.2em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding: 0px 10px;
+  list-style: none;
+}
+#menu-item {
+  font-size: 1em;
+}
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    list-style: none;
+    border-right: none;
+    display: none;
+  }
+  .sidebar a {
+    text-align: center;
+    float: none;
+    margin-left: 0px;
+  }
+  div.main {
+    display:inline-block;
+    margin-left: 0;
+  }
+}

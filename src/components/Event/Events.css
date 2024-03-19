@@ -1,8 +1,9 @@
 #events{
-    background: url("../Design/black-gradient.jpg");
+    background: url("../Design/space.jpeg");
 }
 .EventHead{
     color: rgb(255, 255, 255);
+    font-family: 'ui-sans-serif';
     border-radius: 10px;
     text-align: center;
     width: 46%;
@@ -22,4 +23,3 @@
     font-size: 1.1rem ;
     color: black;
 }
-

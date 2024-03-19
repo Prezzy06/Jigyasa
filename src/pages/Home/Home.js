@@ -5,19 +5,18 @@ import Footer from "../../components/Footer/Footer";
 import StickyNav from "../../components/Navbars/stickyNav";
 import Intro from "../../components/Intro/Intro";
 import AOS from 'aos';
+import Gallery from '../../components/Gallery/Gallery';
 import 'aos/dist/aos.css';
 AOS.init();
 
-
-
 export default function Home() {
-  
   return (
     <>
       <StickyNav />
       <Intro />
       <About />
       <Events />
+      <Gallery />
       <Footer />
     </>
   )

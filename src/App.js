@@ -1,5 +1,6 @@
-import Home from "./pages/Home/Home"
-
+import Home from "./pages/Home/Home";
+import StickyNav from "./components/Navbars/stickyNav";
+import JigyasaTeam from "./components/Team/Teams";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -7,10 +8,14 @@ export default function App() {
     <>
       <Router>
         <Routes>
+          <Route path="/" element={<Home />}></Route>
           <Route
-            path="/"
+            path="/team"
             element={
-              <Home />
+              <>
+                <StickyNav />
+                <JigyasaTeam />
+              </>
             }
           ></Route>
         </Routes>

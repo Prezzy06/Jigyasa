@@ -1,21 +1,19 @@
 .IntroContainer{
-    
-    background: black;
+    background: url(../Design/space.jpeg);
     background-size: 100vw 100vh;
     
 }
 
 .IntroHeading{
-    font-family: 'Nunito';
+    font-family: 'ui-sans-serif';
 }
 .IntroPara{
-    font-family: 'Nunito';
     font-size: 1.2rem !important;
 }
 
 @media screen and (min-width: 360px) {
     .IntroContainer{
-        background: black;
+        background: url(../Design/space.jpeg);
     }
     .movingText{
         font-size: larger !important;

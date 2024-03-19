@@ -2,10 +2,10 @@ import React from "react";
 import "./Navbar.css";
 import { HashLink as Link } from "react-router-hash-link";
 import { FaBars, FaArrowLeft } from "react-icons/fa";
-import { BsInstagram, BsYoutube } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
+import {FaXTwitter} from 'react-icons/fa6'
 import { IconContext } from "react-icons";
 import { useState } from "react";
 
@@ -50,7 +50,7 @@ const Navbar = () => {
               <></>
             )}
           </div>
-          <h1 className="text-white text-2xl font-['Nunito'] font-black px-10 ml-2 my-1 drop-shadow-lg">
+          <h1 className="text-white text-2xl font-sans font-black px-10 ml-2 my-1 drop-shadow-l">
             <Link smooth to="/#">
               <img
                 src={require("./textlogo.png")}
@@ -62,7 +62,7 @@ const Navbar = () => {
 
           <div className=" flex items-center py-3 relative">
             <ul className="hidden md:flex px-2 lg:px-5 ">
-              <li className="px-2 md:px-4 text-white font-['Nunito'] hover:text-[#ffffff] text-l">
+              <li className="px-2 md:px-4 text-white font-sans hover:text-[#ffffff] text-lg">
                 <Link
                   smooth
                   to={{
@@ -75,7 +75,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li
-                className="px-2 md:px-4 text-white font-['Nunito'] hover:text-[#ffffff] text-l"
+                className="px-2 md:px-4 text-white font-sans hover:text-[#ffffff] text-lg"
                 href="#"
               >
                 <Link
@@ -88,6 +88,27 @@ const Navbar = () => {
                 >
                   Events
                 </Link>
+              </li>
+              <li
+                className="px-2 md:px-4 text-white font-sans hover:text-[#ffffff] text-lg"
+                href="#"
+              >
+                <Link
+                  smooth
+                  to={{
+                    pathname: "/",
+                    hash: "gallery",
+                  }}
+                  scroll={(el) => scrollWithOffset(el)}
+                >
+                  Gallery
+                </Link>
+              </li>
+              <li
+                className="px-2 md:px-4 text-white font-sans hover:text-[#ffffff] text-lg"
+                href="#"
+              >
+                <Link to="/team/#">Team</Link>
               </li>
             </ul>
           </div>
@@ -102,7 +123,7 @@ const Navbar = () => {
         >
           <ul className="m-auto px-5 py-8">
             <li
-              className="px-4 py-5 text-white text-center font-['Nunito'] text-2xl"
+              className="px-4 py-5 text-white text-center font-sans text-2xl"
               onClick={handleMenu}
             >
               <Link
@@ -117,7 +138,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li
-              className="px-4 py-5 text-white text-center font-['Nunito'] text-2xl"
+              className="px-4 py-5 text-white text-center font-sans text-2xl"
               onClick={handleMenu}
             >
               <Link
@@ -131,26 +152,39 @@ const Navbar = () => {
                 Events
               </Link>
             </li>
+            <li
+              className="px-4 py-5 text-white text-center font-sans text-2xl"
+              onClick={handleMenu}
+            >
+              <Link
+                smooth
+                to={{
+                  pathname: "/",
+                  hash: "gallery",
+                }}
+                scroll={(el) => scrollWithOffset(el)}
+              >
+                Gallery
+              </Link>
+            </li>
+            <li
+              className="px-4 py-5 text-white text-center font-sans text-2xl"
+              onClick={handleMenu}
+            >
+              <Link to="/team/#">Team</Link>
+            </li>
           </ul>
 
           <ul className="flex justify-center py-2">
-            <li className='social-links font-["Nunito"] text-white mx-5 text-l my-4 '>
-              <a href="https://facebook.com">
+            <li className="social-links font-sans text-white mx-5 text-l my-4">
+              <a href="https://twitter.com">
                 <IconContext.Provider value={{ className: "react-icons" }}>
-                  <BsFacebook className="sm:hidden" />
+                  <FaXTwitter className="sm:hidden" />
                 </IconContext.Provider>
-                <p className="hidden sm:flex">Facebook</p>
+                <p className="hidden sm:flex">X</p>
               </a>
             </li>
-            <li className='social-links font-["Nunito"] justify-center text-white mx-5 text-l my-4 '>
-              <a href="https://instagram.com">
-                <IconContext.Provider value={{ className: "react-icons" }}>
-                  <BsInstagram className="sm:hidden" />
-                </IconContext.Provider>
-                <p className="hidden sm:flex">Instagram</p>
-              </a>
-            </li>
-            <li className='social-links font-["Nunito"] text-white mx-5 text-l my-4 '>
+            <li className="social-links font-sans text-white mx-5 text-l my-4 ">
               <a href="https://linkedin.com">
                 <IconContext.Provider value={{ className: "react-icons" }}>
                   <BsLinkedin className="sm:hidden" />
@@ -158,20 +192,20 @@ const Navbar = () => {
                 <p className="hidden sm:flex">LinkedIn</p>
               </a>
             </li>
-            <li className="social-links font-['Nunito'] text-white mx-5 text-l my-4">
-              <a href="https://github.com">
+            <li className="social-links font-sans text-white mx-5 text-l my-4 ">
+              <a href="https://www.facebook.com/jigyasa.iitbhu/">
                 <IconContext.Provider value={{ className: "react-icons" }}>
-                  <BsGithub className="sm:hidden" />
+                  <BsFacebook className="sm:hidden" />
                 </IconContext.Provider>
-                <p className="hidden sm:flex">Github</p>
+                <p className="hidden sm:flex">Facebook</p>
               </a>
             </li>
-            <li className="social-links font-['Nunito'] text-white mx-5 text-l my-4">
-              <a href="https://youtube.com">
+            <li className="social-links font-sans justify-center text-white mx-5 text-l my-4 ">
+              <a href="https://www.instagram.com/jigyasa.iitbhu/">
                 <IconContext.Provider value={{ className: "react-icons" }}>
-                  <BsYoutube className="sm:hidden" />
+                  <BsInstagram className="sm:hidden" />
                 </IconContext.Provider>
-                <p className="hidden sm:flex">Youtube</p>
+                <p className="hidden sm:flex">Instagram</p>
               </a>
             </li>
           </ul>
