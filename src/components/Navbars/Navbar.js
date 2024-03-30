@@ -5,7 +5,7 @@ import { FaBars, FaArrowLeft } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
-import {FaXTwitter} from 'react-icons/fa6'
+import { FaXTwitter } from "react-icons/fa6";
 import { IconContext } from "react-icons";
 import { useState } from "react";
 
@@ -176,6 +176,22 @@ const Navbar = () => {
           </ul>
 
           <ul className="flex justify-center py-2">
+            <li className="social-links font-sans text-white mx-5 text-l my-4 ">
+              <a href="https://www.instagram.com/jigyasa.iitbhu/">
+                <IconContext.Provider value={{ className: "react-icons" }}>
+                  <BsInstagram className="sm:hidden" />
+                </IconContext.Provider>
+                <p className="hidden sm:flex">Instagram</p>
+              </a>
+            </li>
+            <li className="social-links font-sans text-white mx-5 text-l my-4 ">
+              <a href="https://www.facebook.com/jigyasa.iitbhu/">
+                <IconContext.Provider value={{ className: "react-icons" }}>
+                  <BsFacebook className="sm:hidden" />
+                </IconContext.Provider>
+                <p className="hidden sm:flex">Facebook</p>
+              </a>
+            </li>
             <li className="social-links font-sans text-white mx-5 text-l my-4">
               <a href="https://twitter.com">
                 <IconContext.Provider value={{ className: "react-icons" }}>
@@ -190,22 +206,6 @@ const Navbar = () => {
                   <BsLinkedin className="sm:hidden" />
                 </IconContext.Provider>
                 <p className="hidden sm:flex">LinkedIn</p>
-              </a>
-            </li>
-            <li className="social-links font-sans text-white mx-5 text-l my-4 ">
-              <a href="https://www.facebook.com/jigyasa.iitbhu/">
-                <IconContext.Provider value={{ className: "react-icons" }}>
-                  <BsFacebook className="sm:hidden" />
-                </IconContext.Provider>
-                <p className="hidden sm:flex">Facebook</p>
-              </a>
-            </li>
-            <li className="social-links font-sans justify-center text-white mx-5 text-l my-4 ">
-              <a href="https://www.instagram.com/jigyasa.iitbhu/">
-                <IconContext.Provider value={{ className: "react-icons" }}>
-                  <BsInstagram className="sm:hidden" />
-                </IconContext.Provider>
-                <p className="hidden sm:flex">Instagram</p>
               </a>
             </li>
           </ul>

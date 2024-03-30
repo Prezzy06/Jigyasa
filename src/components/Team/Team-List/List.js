@@ -22,7 +22,7 @@ const listnamesNames = {
   pos_5: "Events",
   pos_6: "Publicity",
   pos_7: "Public Relation",
-  pos_8: "Operations",
+  pos_8: "Content",
   pos_9: "Executives",
 };
 

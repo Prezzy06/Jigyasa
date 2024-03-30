@@ -24,7 +24,7 @@
 
 .team-card {
   width: 300px;
-  height: 375px;
+  height: 405px;
   margin-right: 5%;
   margin-bottom: 5%;
   background: #979090 ;
@@ -82,7 +82,7 @@
 @media screen and (max-width: 700px) {
   .team-card {
     width: 280px;
-    height: 350px;
+    height: 380px;
     margin-left: -30px;
     display: flex;
     justify-content: space-between;
