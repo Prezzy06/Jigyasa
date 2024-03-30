@@ -7,3 +7,8 @@
     margin-left: 27%;
     margin-right: 27%;
 }
+
+.swiper-pagination-bullet {
+    background-color: #ffffff; /* Change this to your desired color */
+}
+  
