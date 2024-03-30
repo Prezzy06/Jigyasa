@@ -1,7 +1,6 @@
 .IntroContainer{
     background: url(../Design/space.jpeg);
-    background-size: 100vw 100vh;
-    
+    background-attachment: fixed;
 }
 
 .IntroHeading{
@@ -14,6 +13,7 @@
 @media screen and (min-width: 360px) {
     .IntroContainer{
         background: url(../Design/space.jpeg);
+        background-attachment: fixed;
     }
     .movingText{
         font-size: larger !important;

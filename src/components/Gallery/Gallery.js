@@ -18,14 +18,14 @@ const Gallery = () => {
 
   return (
     <div id="gallery" className="">
-      <h1 className="GalleryHead font-extrabold text-6xl mt-200 mb-100 pt-20 pb-20 my-10">
+      <h1 className="GalleryHead font-extrabold text-6xl mt-200 mb-100 pt-20 pb-10 my-10">
         Gallery
       </h1>
       <h1 className="GalleryHead font-extrabold text-5xl mb-20">
         Our previous speakers
       </h1>
 
-      <div className="flex flex-col lg:flex-row lg:items-center">
+      <div className="flex flex-col lg:flex-row lg:items-center mb-20">
         <div className="lg:w-full">
           <div className="flex items-center justify-center">
             <div className="max-w-[95%] lg:max-w-[80%] w-full overflow-hidden">

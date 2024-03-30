@@ -1,5 +1,6 @@
 #events{
     background: url("../Design/space.jpeg");
+    background-attachment: fixed;
 }
 .EventHead{
     color: rgb(255, 255, 255);

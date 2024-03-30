@@ -5,6 +5,7 @@
   height: 100%;
   overflow: hidden;
   background: url("../Design/space.jpeg");
+  background-attachment: fixed;
 }
 .sidebar {
   height: 100%;

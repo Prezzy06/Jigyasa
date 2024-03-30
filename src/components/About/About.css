@@ -1,5 +1,6 @@
 body {
     background: url(../Design/space.jpeg);
+    background-attachment: fixed;
 }
 
 #about {
