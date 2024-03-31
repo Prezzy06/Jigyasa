@@ -1,14 +1,24 @@
-.GalleryHead{
-    color: rgb(255, 255, 255);
-    font-family: 'ui-sans-serif';
-    border-radius: 10px;
-    text-align: center;
-    width: 46%;
-    margin-left: 27%;
-    margin-right: 27%;
+.GalleryHead {
+  color: rgb(255, 255, 255);
+  font-family: "ui-sans-serif";
+  border-radius: 10px;
+  text-align: center;
+  width: 46%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .swiper-pagination-bullet {
-    background-color: #ffffff; /* Change this to your desired color */
+  background-color: #ffffff;
 }
-  
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.swiper-slide-shadow {
+  opacity: 0;
+}
